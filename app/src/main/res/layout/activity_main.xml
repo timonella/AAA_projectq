@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Менеджер Задач"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/btnGoToCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Календарь"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnGoToTodayTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сегодняшние задачи"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnGoToCreateTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Создать задачу"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnGoToStatistics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Статистика"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnGoToStore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Магазин"
+        android:layout_marginBottom="8dp" />
+
+</LinearLayout>

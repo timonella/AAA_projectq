@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Менеджер задач</string>
+
+    <!-- Main Screen -->
+    <string name="title_main">Менеджер задач</string>
+    <string name="btn_calendar">Календарь</string>
+    <string name="btn_today_tasks">Задачи на сегодня</string>
+    <string name="btn_create_task">Создать задачу</string>
+    <string name="btn_statistics">Статистика</string>
+    <string name="btn_profile">Мой профиль</string>
+    <string name="your_points">Ваши баллы: %d</string>
+
+    <!-- Create Task Screen -->
+    <string name="title_create_task">Создать новую задачу</string>
+    <string name="hint_task_name">Введите название задачи</string>
+    <string name="hint_description">Описание (опционально)</string>
+    <string name="label_category">Категория</string>
+    <string name="label_priority">Приоритет</string>
+    <string name="label_date">Дата выполнения</string>
+    <string name="label_time">Время (опционально)</string>
+    <string name="label_reminder">Напоминание</string>
+    <string name="label_recurring">Повтор</string>
+    <string name="btn_select_date">📅 Выбрать дату</string>
+    <string name="btn_add_task">Добавить задачу</string>
+    <string name="toast_task_added">✅ Задача добавлена на %s</string>
+    <string name="toast_enter_task_name">Введите название задачи</string>
+
+    <!-- Categories -->
+    <string name="category_work">Работа</string>
+    <string name="category_personal">Личное</string>
+    <string name="category_study">Учеба</string>
+    <string name="category_home">Дом</string>
+    <string name="category_health">Здоровье</string>
+    <string name="category_other">Другое</string>
+
+    <!-- Priority -->
+    <string name="priority_low">Низкий</string>
+    <string name="priority_medium">Средний</string>
+    <string name="priority_high">Высокий</string>
+
+    <!-- Reminders -->
+    <string name="reminder_none">Без напоминания</string>
+    <string name="reminder_5min">За 5 минут</string>
+    <string name="reminder_15min">За 15 минут</string>
+    <string name="reminder_30min">За 30 минут</string>
+    <string name="reminder_1hour">За 1 час</string>
+    <string name="reminder_1day">За 1 день</string>
+
+    <!-- Recurring -->
+    <string name="recurring_none">Не повторяется</string>
+    <string name="recurring_daily">Ежедневно</string>
+    <string name="recurring_weekly">Еженедельно</string>
+    <string name="recurring_monthly">Ежемесячно</string>
+
+    <!-- Today Tasks Screen -->
+    <string name="title_today_tasks">Задачи на сегодня</string>
+    <string name="label_selected_date">Выбранная дата:</string>
+    <string name="label_tasks_count">📊 Всего: %d | ✅ Выполнено: %d</string>
+    <string name="empty_tasks_today">📭 Нет задач на сегодня\n\nНажмите ➕ чтобы добавить задачу</string>
+    <string name="empty_tasks_all">📭 Нет ни одной задачи\n\nНажмите ➕ чтобы добавить задачу</string>
+    <string name="btn_show_all_tasks">📋 Показать все задачи</string>
+    <string name="btn_show_today_tasks">📅 Показать задачи на сегодня</string>
+    <string name="toast_tasks_today">Показываю задачи на сегодня</string>
+    <string name="toast_tasks_all">Показываю все задачи</string>
+    <string name="toast_task_completed">✅ Выполнено: %s</string>
+    <string name="toast_task_uncompleted">🔄 Отменено: %s</string>
+
+    <!-- Calendar Screen -->
+    <string name="title_calendar">Календарь</string>
+    <string name="select_date">выберите дату</string>
+    <string name="selected_date">Выбранная дата:</string>
+    <string name="not_selected">Не выбрана</string>
+    <string name="btn_show_tasks_date">Показать задачи на эту дату</string>
+    <string name="btn_go_to_create">создать задачу</string>
+    <string name="btn_go_to_main">на главный экран</string>
+    <string name="toast_date_selected">Выбрана дата: %s</string>
+
+    <!-- Statistics Screen -->
+    <string name="title_statistics">Статистика</string>
+    <string name="label_total_tasks">Всего задач</string>
+    <string name="label_completed">Выполнено</string>
+    <string name="label_pending">Ожидают</string>
+    <string name="label_progress">Прогресс</string>
+    <string name="categories_title">По категориям</string>
+    <string name="daily_stats_title">Статистика по дням</string>
+    <string name="no_tasks">Нет задач</string>
+    <string name="btn_refresh_stats">Обновить</string>
+
+    <!-- Profile/Gamification -->
+    <string name="title_profile">Мой профиль</string>
+    <string name="total_points">Всего баллов</string>
+    <string name="current_level">Уровень</string>
+    <string name="current_streak">Текущая серия</string>
+    <string name="badge_title">Награды</string>
+    <string name="leaderboard_title">Таблица лидеров</string>
+    <string name="days">дн.</string>
+
+    <!-- Common -->
+    <string name="btn_cancel">Отмена</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="btn_delete">Удалить</string>
+    <string name="btn_edit">Редактировать</string>
+    <string name="btn_ok">OK</string>
+    <string name="loading">Загрузка...</string>
+</resources>
+
